@@ -10,8 +10,6 @@ alert(`Welcome to the Music Festival Concert Slot Reservation! Get ready to choo
 
 // Prompt the user to enter their name.
 const userName = prompt(`Please enter your name!`)
-
-
 // Display a greeting message with the user's name.
 alert (`Hello, ${userName} ! Let's get started.`)
 
@@ -54,6 +52,8 @@ switch (userSelection){
                         time = "09.02.2024, 7pm"
                         alert(`${time}, your reservation has been confirmed!`)
                         break
+                    default:
+                        alert(`Invalid, please enter number.`) 
                 }
                 break
             case "2":
@@ -76,6 +76,8 @@ switch (userSelection){
                         time = "12.02.2024, 7pm"
                         alert(`${time}, your reservation has been confirmed!`)
                         break
+                    default:
+                        alert(`Invalid, please enter number.`) 
                 }
                 break
             case "3":
@@ -98,6 +100,8 @@ switch (userSelection){
                         time = "15.02.2024, 7pm"
                         alert(`${time}, your reservation has been confirmed!`)
                         break
+                    default:
+                        alert(`Invalid, please enter number.`) 
                 }
                 break
         }
@@ -130,8 +134,9 @@ switch (userSelection){
                         time = "09.03.2024, 7pm"
                         alert(`${time}, your reservation has been confirmed!`)
                         break
+                    default:
+                        alert(`Invalid, please enter number.`) 
                 }
-
                 break
             case "2":
                 artist = "Madonna"
@@ -153,6 +158,8 @@ switch (userSelection){
                         time = "12.03.2024, 7pm"
                         alert(`${time}, your reservation has been confirmed!`)
                         break
+                    default:
+                        alert(`Invalid, please enter number.`) 
                 }
 
                 break
@@ -176,6 +183,8 @@ switch (userSelection){
                         time = "15.03.2024, 7pm"
                         alert(`${time}, your reservation has been confirmed!`)
                         break
+                    default:
+                        alert(`Invalid, please enter number.`) 
                 }
                 break
         }
@@ -185,13 +194,92 @@ switch (userSelection){
         alert(`You have chosen ${selection}!`)
         artistName = prompt(`Please choose the artist by entering number
         1. Daft Punk
-        2.  Calvin Harris
+        2. Calvin Harris
         3. Aphex Twin`)
-        alert(`You have shosen ${artistName}!`)
+        switch(artistName){
+            case "1":
+                artist = "Daft Punk"
+                alert(`You have shosen ${artist}!`)
+                timeSlot = prompt(`Please choose your time by entering number
+                1. 07.04.2024, 7pm
+                2. 08.04.2024, 7pm
+                3. 09.04.2024, 7m`)
+                switch(timeSlot){
+                    case "1":
+                        time = "07.04.2024, 7pm"
+                        alert(`${time}, your reservation has been confirmed!`)
+                        break
+                    case "2":
+                        time = "08.04.2024, 7pm"
+                        alert(`${time}, your reservation has been confirmed!`)
+                        break
+                    case "3":
+                        time = "09.04.2024, 7pm"
+                        alert(`${time}, your reservation has been confirmed!`)
+                        break
+                    default:
+                        alert(`Invalid, please enter number.`) 
+                }
+                break
+            case "2":
+                artist = "Calvin Harris"
+                alert(`You have shosen ${artist}!`)
+                timeSlot = prompt(`Please choose your time by entering number
+                1. 10.04.2024, 7pm
+                2. 11.04.2024, 7pm
+                3. 12.04.2024, 7m`)
+                switch(timeSlot){
+                    case "1":
+                        time = "10.04.2024, 7pm"
+                        alert(`${time}, your reservation has been confirmed!`)
+                        break
+                    case "2":
+                        time = "11.04.2024, 7pm"
+                        alert(`${time}, your reservation has been confirmed!`)
+                        break
+                    case "3":
+                        time = "12.04.2024, 7pm"
+                        alert(`${time}, your reservation has been confirmed!`)
+                        break
+                        default:
+                            alert(`Invalid, please enter number.`) 
+                    }
+                    break
+            case "3":
+                artist = "Aphex Twin"
+                alert(`You have shosen ${artist}!`)
+                timeSlot = prompt(`Please choose your time by entering number
+                1. 13.04.2024, 7pm
+                2. 14.03.2024, 7pm
+                3. 15.03.2024, 7pm`)
+                switch(timeSlot){
+                    case "1":
+                        time = "13.04.2024, 7pm"
+                        alert(`${time}, your reservation has been confirmed!`)
+                        break
+                    case "2":
+                        time = "14.04.2024, 7pm"
+                        alert(`${time}, your reservation has been confirmed!`)
+                        break
+                    case "3":
+                        time = "15.04.2024, 7pm"
+                        alert(`${time}, your reservation has been confirmed!`)
+                        break
+                        default:
+                            alert(`Invalid, please enter number.`) 
+                        }
+                        break
+                    }
         break
     default:
         alert(`Invalid, please enter number.`)    
 }
+
+alert(`Your reservation has been confirmed!
+${time} with ${artist}
+See you soon!`)
+
+exit(1) 
 
 
 // Display the chosen genre.
