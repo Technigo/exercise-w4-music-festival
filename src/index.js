@@ -120,7 +120,7 @@ switch (userSelection){
                 timeSlot = prompt(`Please choose your time by entering number
                 1. 07.03.2024, 7pm
                 2. 08.03.2024, 7pm
-                3. 09.03.2024, 7m`)
+                3. 09.03.2024, 7pm`)
                 switch(timeSlot){
                     case "1":
                         time = "07.03.2024, 7pm"
@@ -144,7 +144,7 @@ switch (userSelection){
                 timeSlot = prompt(`Please choose your time by entering number
                 1. 10.03.2024, 7pm
                 2. 11.03.2024, 7pm
-                3. 12.03.2024, 7m`)
+                3. 12.03.2024, 7pm`)
                 switch(timeSlot){
                     case "1":
                         time = "10.03.2024, 7pm"
@@ -203,7 +203,7 @@ switch (userSelection){
                 timeSlot = prompt(`Please choose your time by entering number
                 1. 07.04.2024, 7pm
                 2. 08.04.2024, 7pm
-                3. 09.04.2024, 7m`)
+                3. 09.04.2024, 7pm`)
                 switch(timeSlot){
                     case "1":
                         time = "07.04.2024, 7pm"
@@ -227,7 +227,7 @@ switch (userSelection){
                 timeSlot = prompt(`Please choose your time by entering number
                 1. 10.04.2024, 7pm
                 2. 11.04.2024, 7pm
-                3. 12.04.2024, 7m`)
+                3. 12.04.2024, 7pm`)
                 switch(timeSlot){
                     case "1":
                         time = "10.04.2024, 7pm"
