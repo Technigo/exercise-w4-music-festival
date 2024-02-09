@@ -7,14 +7,40 @@
 alert("Welcome to the Music Festival Concert Slot Reservation! Get ready to choose your favorite music genre.");
 
 // Prompt the user to enter their name.
-let userName = prompt ("Please enter your name:", "Alfons Åberg");
 // Display a greeting message with the user's name.
+let userName = prompt ("Please enter your name:", "Alfons Åberg");
+alert (`Hello ${userName}!`);
 
 // Music Genre Selection
 // Ask the user to choose a music genre.
+let = genreChoice = prompt (
+  Please select your favourite music genre:
+  1- Rock 
+  2- Pop
+  3- Electronic
+);
 
 // Initialize a variable to store the selected genre.
+let selectedGenre;
+switch (genreChoice) {
+  case "1":
+    selectedGenre = "Rock";
+    break;
+  case "2":
+    selectedGenre = "Pop";
+    break;
+  case "3":
+    selectedGenre = "Electronic";
+    break;
+  default:
+    alert("Invalid choice. Please select a valid number"),
+    exit(1);
+}
 
+
+
+
+}
 // Determine the selected genre based on the user's choice.
 
 // Display the chosen genre.
