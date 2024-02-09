@@ -8,7 +8,7 @@ alert("🎶 Welcome to the Music Festival Concert Slot Reservation! Get ready to
 
 // Prompt the user to enter their name.
 // Display a greeting message with the user's name.
-let userName = prompt ("Please enter your name:", "ex.Alfons Åberg");
+let userName = prompt ("Please enter your name:", "Alfons Åberg");
 alert (`👋 Hello ${userName}!`);
 
 // Music Genre Selection
