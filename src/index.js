@@ -42,7 +42,8 @@ const musicSelection = parseInt( prompt(`
     3 - Pop
     Please enter the number of your choice. 
     `)
-)
+);
+
 let selectedGenre = ""
 
 if (musicSelection === 1) {
@@ -76,7 +77,7 @@ switch (selectedGenre){
         artistNames = ["QOTSA","Artic Monkeys", "Pearl Jam" ]
         break
 
-    case "R&B":
+    case "Hip-Hop":
      concertSlot = parseInt(
         prompt(
            `Select a slot for Hip-Hop:
@@ -103,14 +104,13 @@ switch (selectedGenre){
         )
         artistNames = ["Rihanna", "Madonna", "Harry Styles" ]
         break
-        
         default:
          alert("Invalid choice, please start all over again and select an option. See you!")
          exit(1)
       }
-
-    let timeSlot= ""
-    switch (concertSlot) {
+    
+let timeSlot= ""
+switch (concertSlot) {
         case 1:
          timeSlot = "19:00"
          break
