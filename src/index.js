@@ -10,7 +10,7 @@ alert(`Welcome to the Music Festival Concert Slot Reservation! Get ready to choo
 
 // Prompt the user to enter their name.
 const userName = prompt(`Please enter your name!`)
-const userNameUp = userName[0].toUpperCase() + userName.slice(1).toLowerCase
+const userNameUp = userName[0].toUpperCase() + userName.slice(1).toLowerCase()
 // Display a greeting message with the user's name.
 alert (`Hello, ${userNameUp} ! Let's get started.`)
 
