@@ -35,7 +35,7 @@ const userName = prompt("Please provide your name")
 
 alert(`Hi ${userName}! Let's get rocking!`)
 
-cosnt musicSelection = parseInt( prompt(`
+const musicSelection = parseInt( prompt(`
     Select your favourite music genre:
     1 - Rock
     2 - Hip-Hop
