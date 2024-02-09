@@ -130,3 +130,4 @@ switch (selectedGenre) {
 }
 
 // Display a message confirming the user's reservation based on the selected artist, time slot, and genre.
+alert(`Great choice! You've reserved a spot to see ${artistName} at ${selectedSlot} for the ${selectedGenre} concert!`);
