@@ -4,9 +4,10 @@
 // Welcome and Introduction
 
 // Display a welcoming message for the user.
+alert("Welcome to the Music Festival Concert Slot Reservation! Get ready to choose your favorite music genre.");
 
 // Prompt the user to enter their name.
-
+let userName = prompt ("Please enter your name:", "Alfons Åberg");
 // Display a greeting message with the user's name.
 
 // Music Genre Selection
