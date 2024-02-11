@@ -35,7 +35,6 @@ switch (genreChoice) {
     break;
   default:
     alert("Invalid choice. ⚠️ Please select a valid number.");
-    exit(1);
 }
 
 // Determine the selected genre based on the user's choice.
@@ -87,7 +86,6 @@ switch (slotChoice) {
     break;
   default:
     alert("Invalid slot choice.");
-    exit(1);
 }
 
 // Determine the artist name based on the selected genre and slot
