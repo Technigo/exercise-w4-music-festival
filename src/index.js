@@ -33,6 +33,11 @@ alert(
 
 const userName = prompt("Please provide your name")
 
+if (userName == null){
+    alert("Invalid entry, please try again. See you!")
+    exit(1)
+}
+
 alert(`Hi ${userName}! Let's get rocking!`)
 
 const musicSelection = parseInt(prompt(`
