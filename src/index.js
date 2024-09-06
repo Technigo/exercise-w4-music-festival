@@ -9,7 +9,6 @@ alert(`Welcome to ${webName}! Get ready to choose your favorite music genre.`)
 
 // Prompt the user to enter their name.
 const name = prompt("May I get your name please?")
-console.log("visiter's name is:", name)
 
 // Display a greeting message with the user's name.
 
@@ -25,7 +24,6 @@ const musicGenreSelection = parseInt(
         3 - Electronic
     `)
 )
-console.log("music selection is: ", musicGenreSelection)
 
 /* ********************************************
 The parseInt method parses a value as a string and returns the first integer.
@@ -46,7 +44,6 @@ if (musicGenreSelection === 1) {
     alert("Invalid choice. Please start all over again and select a valid number. See you!")
     exit (1)
 } 
-console.log("selected genre: ", selectedGenre)
 
 /* *************************************
 The exit(*message*) function prints a message and terminates the current script.
@@ -106,7 +103,7 @@ switch (selectedGenre) {
     alert("Invalid choice. Please start all over again and select a valid number. See you!")
     exit (1)
 }
-console.log("selected concert slot: ", concertSlot)
+
 /* **********************************************
 Switch Statement: is used to perform different actions based on different conditions.
 https://www.w3schools.com/js/js_switch.asp
@@ -133,7 +130,7 @@ switch (concertSlot) {
     alert("Invalid choice. Please start all over again and select a valid number. See you!")
     exit (1)
 }
-console.log("selected time slot: ", timeSlot)
+
 // Display a message confirming the user's reservation based on the selected artist, time slot, and genre.
 if (concertSlot === 1) {
   alert(`Great choice! You've reserved a spot to see ${artistNames[0]} at ${timeSlot} for the ${selectedGenre} concert!`)
